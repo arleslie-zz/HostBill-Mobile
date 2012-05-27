@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_alignParentTop="true" android:layout_width="match_parent" android:orientation="vertical">
+        <EditText android:id="@+id/editText1" android:layout_height="match_parent" android:text="" android:layout_width="match_parent"></EditText>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_below="@id/linearLayout1" android:layout_width="match_parent">
+        <Spinner android:id="@+id/spinner1" android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="wrap_content"></Spinner>
+        <Spinner android:layout_height="wrap_content" android:id="@+id/spinner2" android:layout_width="wrap_content" android:layout_weight="1"></Spinner>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout3"  android:layout_below="@id/linearLayout2" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ListView android:id="@+id/listView1" android:layout_width="match_parent" android:layout_height="match_parent"></ListView>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:id="@+id/linearLayout4" android:layout_width="match_parent">
+        <EditText android:layout_weight="4" android:layout_width="wrap_content" android:id="@+id/editText2" android:layout_height="wrap_content" android:text=""></EditText>
+        <Button android:layout_weight="1" android:layout_width="wrap_content" android:id="@+id/button1" android:layout_height="wrap_content" android:text="@string/Reply"></Button>
+    </LinearLayout>
+</RelativeLayout>

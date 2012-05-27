@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:enabled="true" android:title="HostBill URL" android:dialogTitle="HostBill URL" android:selectable="true" android:key="URL" android:dialogMessage="Your HostBill URL without /admin" android:defaultValue="http://"></EditTextPreference>
+    <EditTextPreference android:selectable="true" android:key="apiid" android:title="API ID" android:enabled="true" android:dialogMessage="API ID" android:dialogTitle="API ID"/><EditTextPreference android:selectable="true" android:key="apikey" android:title="API Key" android:enabled="true" android:dialogMessage="API Key" android:dialogTitle="API Key"/><CheckBoxPreference android:summary="Do you need to authenicate with apache?" android:title=".htaccess Authentication" android:key="htcheck" android:selectable="true" android:enabled="true" android:defaultValue="false" android:summaryOn="HTTP Autentication enabled." android:summaryOff="HTTP Autentication disabled."></CheckBoxPreference><EditTextPreference android:dialogTitle=".htaccess Username" android:key="htuser" android:selectable="true" android:enabled="true" android:title=".htaccess Username"></EditTextPreference>
+    
+    <EditTextPreference android:dialogMessage="WARNING: This is stored in plaintext in an Android preference valut." android:dialogTitle=".htaccess Password" android:key="htpass" android:selectable="true" android:enabled="true" android:summary="This is stored in plaintext!" android:title=".htaccess Password"></EditTextPreference>
+    
+    
+    
+</PreferenceScreen>

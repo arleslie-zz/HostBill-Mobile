@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#D9D9D9" android:weightSum="1">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/imageView1" android:src="@drawable/hostbill"></ImageView>
+    <LinearLayout android:layout_width="match_parent" android:layout_weight="0.96" android:layout_height="match_parent" android:weightSum="1" android:orientation="horizontal" android:baselineAligned="true" android:id="@+id/linearLayout2">
+        <LinearLayout android:orientation="vertical" android:layout_weight="0.99" android:id="@+id/linearLayout3" android:layout_height="match_parent" android:layout_width="match_parent">
+            <ImageButton android:src="@drawable/clients" android:id="@+id/imageButton1" android:background="#FFFFFF" android:layout_height="match_parent" android:layout_width="match_parent" android:layout_weight="1" android:layout_marginBottom="25dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_gravity="center_horizontal" android:fadingEdge="horizontal" android:fadingEdgeLength="20dp" android:padding="0dp"></ImageButton>
+            <ImageButton android:src="@drawable/support" android:id="@+id/imageButton2" android:background="#FFFFFF" android:layout_height="match_parent" android:layout_width="match_parent" android:layout_weight="1" android:layout_marginBottom="25dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_gravity="center_horizontal" android:fadingEdge="horizontal" android:fadingEdgeLength="20dp" android:padding="0dp"></ImageButton>
+            <ImageButton android:src="@drawable/news" android:id="@+id/imageButton3" android:background="#FFFFFF" android:layout_height="match_parent" android:layout_width="match_parent" android:layout_weight="1" android:layout_marginBottom="25dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_gravity="center_horizontal" android:fadingEdge="horizontal" android:fadingEdgeLength="20dp" android:padding="0dp"></ImageButton>
+            <ImageButton android:src="@drawable/invoice" android:id="@+id/imageButton4" android:background="#FFFFFF" android:layout_height="match_parent" android:layout_width="match_parent" android:layout_weight="1" android:layout_marginBottom="25dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_gravity="center_horizontal" android:fadingEdge="horizontal" android:fadingEdgeLength="20dp" android:padding="0dp"></ImageButton>
+            <ImageButton android:src="@drawable/orders" android:id="@+id/imageButton5" android:background="#FFFFFF" android:layout_height="match_parent" android:layout_width="match_parent" android:layout_weight="1" android:layout_marginBottom="25dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_gravity="center_horizontal" android:fadingEdge="horizontal" android:fadingEdgeLength="20dp" android:padding="0dp"></ImageButton>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/linearLayout1">
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:id="@+id/textView3" android:text="Developed by LeslieNetworks.com" android:layout_height="wrap_content" android:textColor="#000000" android:layout_gravity="center"></TextView>
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:id="@+id/textView4" android:text="Design By Jordan Smith" android:layout_height="wrap_content" android:textColor="#000000" android:layout_gravity="center" android:layout_marginBottom="10dp"></TextView>
+    </LinearLayout>
+</TableLayout>

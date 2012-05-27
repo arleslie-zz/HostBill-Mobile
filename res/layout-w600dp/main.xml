@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#D9D9D9" android:weightSum="1">
+    
+        <LinearLayout android:orientation="vertical" android:layout_width="438dp" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:id="@+id/linearLayout1" android:layout_margin="10px" android:layout_weight="0.05">
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/imageView1" android:src="@drawable/hostbill"></ImageView>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView1" android:text="@string/Username" android:textColor="#000000"></TextView>
+            <EditText android:id="@+id/editText1" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="text" android:singleLine="true" android:text="@string/blank" ></EditText>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView2" android:text="@string/Password" android:textColor="#000000"></TextView>
+            <EditText android:id="@+id/editText2" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPassword" android:singleLine="true" android:text="@string/blank" ></EditText>
+            <CheckBox android:layout_width="match_parent" android:id="@+id/checkBox1" android:layout_height="wrap_content" android:text="Remember Me?" android:textColor="#000000"></CheckBox>
+            <Button android:layout_width="match_parent" android:text="Login" android:layout_height="wrap_content" android:id="@+id/button1"></Button>
+            <TextView android:layout_width="wrap_content" android:layout_gravity="center_horizontal" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:id="@+id/textView3" android:text="Developed by LeslieNetworks.com" android:textColor="#000000"></TextView>
+            <TextView android:layout_width="wrap_content" android:layout_gravity="center_horizontal" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:id="@+id/textView4" android:text="Design By Jordan Smith" android:textColor="#000000"></TextView>
+            <EditText android:visibility="invisible" android:inputType="textPassword" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editText3"></EditText>
+            <EditText android:visibility="invisible" android:inputType="textPassword" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editText4"></EditText>
+        </LinearLayout>
+    
+</LinearLayout>

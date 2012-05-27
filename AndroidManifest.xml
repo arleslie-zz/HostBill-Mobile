@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.leslienetworks.hostbill"
+      android:versionCode="1" android:versionName="1.4">
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+ <supports-screens android:resizeable="true" android:largeScreens="true" android:smallScreens="true" />
+
+    <application android:icon="@drawable/icon" android:label="HostBill" android:debuggable="false">
+        <activity android:name=".main" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Settings" android:label="Settings"></activity>
+        <activity android:name="Home" android:label="Home"></activity>
+        <activity android:label="Clients" android:name="Clients"></activity>
+        <activity android:name="ClientInfo" android:label="Client Information"></activity>
+        <activity android:name="AddClient" android:label="Add a New Client"></activity>
+        <activity android:label="Support" android:name="Support"></activity>
+        <activity android:label="News" android:name=".News"></activity>
+        <activity android:label="Support Tickets" android:name="SupportTickets"></activity>
+        <activity android:label="News" android:name=".NewsInfo"></activity>
+        <activity android:label="Support Ticket" android:name="SupportTicketInfo"></activity>
+        <activity android:name="Order" android:label="Order List"></activity>
+        <activity android:name="OrderList" android:label="Order Information"></activity>
+        <activity android:name=".Invoices" android:label="Invoices"></activity>
+        <activity android:label="Invoice Info" android:name=".InvoiceInfo"></activity>
+        <activity android:name="FirstTime"></activity>
+        <activity android:name=".Clients"></activity>
+        <activity android:name=".SupportTickets"></activity>
+
+    </application>
+</manifest>

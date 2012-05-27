@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HostBill</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="blank"></string>
+    <string name="SettingsURL">HostBill URL</string>
+    <string name="Developed">Developed By LeslieNetworks.com</string>
+    <string name="Designed">Design By Jordan Smith</string>
+    <string name="Remember">Remember Me?</string>
+    <string name="Login">Login</string>
+    <string name="logo">HostBill Mobile Logo</string>
+    <string name="Reply">Reply</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="invoicestatus">Invoice Status</string>
+    <string name="total">Total</string>
+    <string name="invoiceid">Invoice ID</string>
+    <string name="duedate">Date Due</string>
+    <string name="AddDept">Add Department</string>
+    <string name="deptname">Department Name</string>
+    <string name="deptcreate">Create</string>
+    <string name="deptemail">Department Email</string>
+    <string name="Cancel">Cancel</string>
+    <string name="AuthString">Please enter your username and password for http authentication.</string>
+</resources>

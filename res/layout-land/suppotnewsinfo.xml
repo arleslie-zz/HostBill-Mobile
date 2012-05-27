@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+    <EditText android:id="@+id/editText1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="EditText" android:lines="1"></EditText>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="match_parent">
+        <EditText android:id="@+id/editText3" android:lines="1" android:layout_height="wrap_content" android:text="EditText" android:layout_width="match_parent" android:layout_weight="1"></EditText>
+        <CheckBox android:layout_gravity="center" android:text="Registered Users Only" android:layout_height="wrap_content" android:id="@+id/checkBox1" android:layout_weight="1" android:layout_width="match_parent"></CheckBox>
+    </LinearLayout>
+    <EditText android:id="@+id/editText2" android:layout_width="match_parent" android:text="EditText" android:layout_height="match_parent"></EditText>
+</LinearLayout>

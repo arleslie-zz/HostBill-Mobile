@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="match_parent" android:layout_width="wrap_content" android:orientation="vertical">
+    <ScrollView android:id="@+id/scrollView1" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:layout_gravity="fill">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:id="@+id/linearLayout7" android:layout_height="match_parent" android:layout_weight="1">
+                <LinearLayout android:orientation="horizontal" android:layout_weight="1" android:layout_width="match_parent" android:id="@+id/LinearLayout03" android:layout_height="match_parent">
+                    <LinearLayout android:orientation="vertical" android:layout_weight="1" android:layout_width="wrap_content" android:id="@+id/LinearLayout02" android:layout_height="wrap_content">
+                        <TextView android:text="First Name" android:layout_weight="1" android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+                        <EditText android:layout_weight="1" android:text="EditText" android:id="@+id/editText6" android:layout_width="match_parent" android:layout_height="wrap_content"></EditText>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_weight="1" android:layout_width="wrap_content" android:id="@+id/LinearLayout01" android:layout_height="wrap_content">
+                        <TextView android:text="Last Name" android:layout_weight="1" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+                        <EditText android:layout_weight="1" android:text="EditText" android:id="@+id/editText2" android:layout_width="match_parent" android:layout_height="match_parent"></EditText>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_weight="1" android:layout_width="match_parent" android:id="@+id/linearLayout3" android:layout_height="match_parent">
+                    <LinearLayout android:orientation="vertical" android:layout_weight="1" android:layout_width="wrap_content" android:id="@+id/linearLayout2" android:layout_height="wrap_content">
+                        <TextView android:text="Order Status" android:layout_weight="1" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+                        <EditText android:layout_weight="1" android:text="EditText" android:id="@+id/editText3" android:layout_width="match_parent" android:layout_height="wrap_content"></EditText>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_weight="1" android:layout_width="wrap_content" android:id="@+id/linearLayout5" android:layout_height="wrap_content">
+                        <TextView android:text="Invoice Status" android:layout_weight="1" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+                        <EditText android:layout_weight="1" android:text="EditText" android:id="@+id/editText4" android:layout_width="match_parent" android:layout_height="wrap_content"></EditText>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_weight="1" android:layout_width="match_parent" android:id="@+id/LinearLayout06" android:layout_height="match_parent">
+                    <LinearLayout android:orientation="vertical" android:layout_weight="0" android:layout_width="wrap_content" android:id="@+id/LinearLayout05" android:layout_height="wrap_content">
+                        <TextView android:text="Order ID" android:layout_weight="1" android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+                        <EditText android:layout_weight="1" android:text="EditText" android:id="@+id/editText9" android:layout_width="wrap_content" android:layout_height="wrap_content"></EditText>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_weight="3" android:layout_width="wrap_content" android:id="@+id/LinearLayout04" android:layout_height="wrap_content">
+                        <TextView android:text="Date" android:layout_weight="1" android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+                        <EditText android:layout_weight="3" android:text="EditText" android:id="@+id/editText5" android:layout_width="match_parent" android:layout_height="match_parent"></EditText>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/LinearLayout1" android:layout_weight="2" android:layout_height="match_parent" android:baselineAligned="true" android:layout_width="match_parent" android:orientation="horizontal" android:layout_gravity="bottom">
+                <LinearLayout
+                    android:id="@+id/linearLayout8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:orientation="horizontal" android:layout_weight="1" android:layout_gravity="fill">
+                    <ListView android:layout_width="match_parent" android:id="@+id/listView1" android:layout_gravity="fill" android:layout_height="292dp"></ListView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

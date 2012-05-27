@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/scrollView1" android:layout_height="wrap_content" android:layout_width="match_parent">
+<LinearLayout
+  android:layout_width="match_parent"
+  android:orientation="vertical" android:layout_height="wrap_content">
+    <TextView android:text="ID" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="match_parent">
+        <EditText android:id="@+id/editText1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="First Name" android:layout_weight="1" android:editable="false"></EditText>
+        <EditText android:id="@+id/editText2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="LastName" android:layout_weight="1" android:editable="false"></EditText>
+    </LinearLayout>
+    <TextView android:text="Company" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <EditText android:id="@+id/editText3" android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Company Name" android:editable="false"></EditText>
+    <TextView android:text="Address" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <EditText android:id="@+id/editText4" android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Address" android:editable="false"></EditText>
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:layout_width="match_parent">
+        <EditText android:id="@+id/editText5" android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="City" android:editable="false"></EditText>
+        <EditText android:id="@+id/editText6" android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="State" android:editable="false"></EditText>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout3" android:layout_height="wrap_content" android:layout_width="match_parent">
+        <EditText android:id="@+id/editText7" android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Zip" android:editable="false"></EditText>
+        <EditText android:id="@+id/editText8" android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Country" android:editable="false"></EditText>
+    </LinearLayout>
+    <TextView android:text="Phone Number" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <EditText android:id="@+id/editText10" android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Phone Number" android:editable="false"></EditText>
+    <EditText android:id="@+id/editText9" android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Notes" android:editable="false"></EditText>
+    
+        <LinearLayout android:id="@+id/linearLayout4" android:layout_width="match_parent" android:layout_height="match_parent"></LinearLayout>
+    
+</LinearLayout>
+</ScrollView>
